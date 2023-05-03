@@ -1,0 +1,142 @@
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+  .hero_area {
+    height: auto;
+  }
+
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 10px 20px;
+  }
+
+  .slider_section .slider_number-container {
+    top: initial;
+    left: initial;
+    bottom: -125px;
+    right: 25px;
+  }
+
+  .slider_section.position-relative {
+    padding: 45px 0 150px 0;
+  }
+
+  .quote_btn-container {
+    display: none;
+  }
+
+  .slider_section .btn-img {
+    bottom: 0;
+  }
+
+  .offer_section .offer_container {
+    flex-direction: column-reverse;
+    padding: 45px 0;
+  }
+
+  .offer_section .offer_container .img-box {
+    margin: 0;
+  }
+
+  .offer_section .offer_container .detail-box h2 {
+    margin: 35px 0;
+    text-align: center;
+  }
+
+  .info_section .info_container {
+    width: 100%;
+  }
+
+  .footer_section p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider_section .detail_box {
+    text-align: center;
+  }
+
+  .client_section .box {
+    margin: 45px 0;
+  }
+
+  .about_section .bg-img {
+    width: 35px;
+  }
+
+  .hero_area::after {
+    width: 80%;
+    height: 50%;
+  }
+
+  .client_section .bg-img {
+    width: 55px;
+  }
+
+  .slider_section .carousel_btn-container {
+    bottom: -125px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  .info_section {
+    text-align: center;
+  }
+
+  .contact_form-container {
+    margin-bottom: 45px;
+  }
+
+  /* .info_section .info_contact .col-md-4 {
+    display: flex;
+    justify-content: center;
+  } */
+  .info_section .info_contact .link-box .img-box {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .info_section .info_contact .link-box {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  .slider_section .carousel_btn-container {
+    width: 90px;
+  }
+
+  .slider_section .carousel_btn-container .carousel-control-prev,
+  .slider_section .carousel_btn-container .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    background-size: 18px;
+  }
+
+  .client_section .box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .client_section .box .detail-box {
+    margin: 0;
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider_section .detail_box h1 {
+    font-size: 3.5rem;
+  }
+
+}
+
+@media (max-width: 420px) {}
+
+@media (max-width: 360px) {}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
