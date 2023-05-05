@@ -1,3 +1,4 @@
 # FRTwebproject
 This is my FRT Project
-# azure link
+# AzureLink
+https://icy-ground-05b021d10.3.azurestaticapps.net
